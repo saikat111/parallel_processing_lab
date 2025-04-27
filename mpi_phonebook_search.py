@@ -1,4 +1,3 @@
-# file: mpi_phonebook_search.py
 
 from mpi4py import MPI
 import time
