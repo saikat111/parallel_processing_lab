@@ -1,0 +1,1 @@
+parallel programming can significantly reduce execution time and improve efficiency when solving large scale computational problems using multiple processors or computers working together in a coordinated way mpi is a standard for message passing in distributed memory systems enabling scalable and portable applications across different architectures
