@@ -1,7 +1,4 @@
-
-
-```
-# Parallel Programming  (MPI and CUDA Solutions)
+# Parallel Programming (MPI and CUDA Solutions)
 
 This repository contains solutions for common parallel programming problems using:
 - (a) **MPI** (Message Passing Interface)
@@ -31,7 +28,7 @@ C:\Program Files\Microsoft MPI\Bin\
 ```bash
 mpiexec
 ```
-✅ You should see MPI usage instructions if installed correctly.
+👉 You should see MPI usage instructions if installed correctly.
 
 ---
 
@@ -59,7 +56,6 @@ pip install cupy-cuda11x
 
 ---
 
-
 ## 🏃 How to Run
 
 ### Running MPI Codes (Locally)
@@ -76,7 +72,7 @@ Example:
 mpiexec -n 4 python mpi_word_count.py
 ```
 
-✅ Make sure MPI is installed and working.
+👉 Make sure MPI is installed and working.
 
 ---
 
@@ -92,11 +88,11 @@ In Colab or PC:
 
 - Then run the `.py` files normally:
 
-```python
+```bash
 python cuda_word_count.py
 ```
 
-✅ Ensure your runtime has GPU enabled.
+👉 Ensure your runtime has GPU enabled.
 
 ---
 
@@ -174,7 +170,6 @@ Pattern '%x%' found 2 times.
 ### 4. Matrix Multiplication (mpi_matrix_multiplication.py / cuda_matrix_multiplication.py)
 
 **Inputs:**
-
 - Number of matrices (K) = 100
 - Matrix A size: 50×50
 - Matrix B size: 50×50
@@ -198,11 +193,11 @@ Total 100 matrices multiplied.
 - CUDA is faster for large data; MPI is useful for multi-core CPU operations.
 - Carefully follow input file formats (like phonebook.txt, input.txt, paragraph.txt).
 
-✅ All codes are **tested and working** in local PC (MPI) and Google Colab (CUDA).
+👉 All codes are **tested and working** on local PC (MPI) and Google Colab (CUDA).
 
 ---
 
-## 📎 References
+## 📌 References
 
 - [MS-MPI Official Download](https://www.microsoft.com/en-us/download/details.aspx?id=105289)
 - [mpi4py Documentation](https://mpi4py.readthedocs.io/en/stable/)
@@ -211,3 +206,4 @@ Total 100 matrices multiplied.
 ---
 
 # 🚀 Good Luck with Parallel Programming!
+Explore. Experiment. Learn.
