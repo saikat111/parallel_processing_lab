@@ -1,0 +1,1 @@
+This is an example paragraph where %x% is a pattern. Sometimes %x% occurs again like %x%.
