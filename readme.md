@@ -1,7 +1,7 @@
 
 
-```markdown
-# Parallel Programming Assignments (MPI and CUDA Solutions)
+```
+# Parallel Programming  (MPI and CUDA Solutions)
 
 This repository contains solutions for common parallel programming problems using:
 - (a) **MPI** (Message Passing Interface)
@@ -211,7 +211,3 @@ Total 100 matrices multiplied.
 ---
 
 # 🚀 Good Luck with Parallel Programming!
-Explore. Experiment. Learn.  
-```
-
----
